@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ktswerd/CLionProjects/CPPproject3/huffman_tree.h
+iostream
+-
+fstream
+-
+queue
+-
+vector
+-
+sstream
+-
+
+/Users/ktswerd/CLionProjects/CPPproject3/main.cpp
+huffman_tree.h
+/Users/ktswerd/CLionProjects/CPPproject3/huffman_tree.h
+
